@@ -1,0 +1,67 @@
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightheader {
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1F2937;
+    height: 600px;
+}
+
+.fitness {
+    width: 25%;
+    height: auto;
+    margin-top: 16px;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.secondarytext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.herocontent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.button1 {
+    background-color: #0091ea;
+    border-radius: 8px;
+    color: white;
+    width: 40%;
+    font-size: 16px;
+    padding: 8px;
+}
