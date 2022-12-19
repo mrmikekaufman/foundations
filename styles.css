@@ -22,7 +22,7 @@ a {
 
 .hero {
     background-color: #1F2937;
-    height: 600px;
+    height: 500px;
 }
 
 .fitness {
@@ -33,7 +33,7 @@ a {
 
 .maintext {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -58,10 +58,111 @@ a {
 }
 
 .button1 {
-    background-color: #0091ea;
+    background-color: #3882F6;
     border-radius: 8px;
     color: white;
     width: 40%;
     font-size: 16px;
     padding: 8px;
+}
+
+.informationheader {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 32px;
+}
+
+.fitnessclass {
+    width: 200px;
+    height: 200px;
+}
+
+.classinfo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    gap: 16px;
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.classinfo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    max-width: 800px;
+}
+
+.subquote {
+    font-weight: 800px;
+    color: #1F2937;
+    font-size: 28px;
+    align-self: center;
+    margin-left: 350px;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 1000px;
+    height: 100px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.calltoaction div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.signupheader {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.ctabutton {
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    font-size: 16px;
+    padding: 8px;
+    color: white;
+    width: 150px;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
